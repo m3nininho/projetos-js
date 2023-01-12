@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  width: 100vw;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  gap: 2rem;
+  background: #ddd;
+}
+.item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2rem;
+}
+.item i {
+  width: 3rem;
+  border-radius: 0.5rem;
+}
+.item button {
+  border-radius: 0.5rem;
+  width: 4rem;
+  height: 1.8rem;
+  margin: 0 auto;
+}
+.item input {
+  width: 15rem;
+  height: 1.5rem;
+  border: 2px solid #000;
+  border-radius: 0.2rem;
+  text-align: center;
+  font-size: 1rem;
+}
+.resultado {
+  width: 40rem;
+  justify-content: center;
+  border-radius: 1rem;
+  border: 2px solid #000;
+  height: 10rem;
+  background: #fff;
+  display: none;
+}
