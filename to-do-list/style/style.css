@@ -44,7 +44,37 @@ body {
   justify-content: center;
   border-radius: 1rem;
   border: 2px solid #000;
-  height: 10rem;
+  height: 15rem;
   background: #fff;
   display: none;
+  gap: 15px;
+  padding: 15px;
+}
+.concluir {
+  padding: 0.35rem;
+  border-radius: 4px;
+  border: 1px solid green;
+  background-color: greenyellow;
+  font-weight: bold;
+  font-size: 12px;
+}
+.concluido {
+  background: green;
+  opacity: 0.8;
+  border-radius: 20px;
+}
+.remover {
+  padding: 0.35rem;
+  border-radius: 4px;
+  border: 1px solid black;
+  color: white;
+  font-weight: bold;
+  background-color: red;
+  font-size: 12px;
+}
+.tarefaAdicionada {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 12px;
 }
